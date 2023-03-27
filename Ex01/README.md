@@ -7,7 +7,5 @@ Uma vez que as variáveis podem não ter a mesma escala, antes de construir o gr
 Selecione os dados a usar.
 
 Faça a seguinte transformação aos dados associados a cada variável
-$$
-X_k: z_{i k}=\frac{x_{i k}-\bar{x}_k}{s_{x_k}}, \quad i=1,2, \ldots, n
-$$,
+![Equation](https://latex.codecogs.com/svg.image?\large&space;\bg{white}X_k:&space;z_{i&space;k}=\frac{x_{i&space;k}-\bar{x}_k}{s_{x_k}},&space;\quad&space;i=1,2,&space;\ldots,&space;n),
 onde n é o número de observações da amostra, x¯k e sxk correspondem, respectivamente, à média e desvio-padrão da amostra associada à variável Xk.
