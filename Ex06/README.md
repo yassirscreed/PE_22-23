@@ -1,9 +1,7 @@
 Considere a variável aleatória X
- que representa o primeiro algarismo de um número inteiro escrito em base decimal. Admita que X
- possui distribuição de Benford, com função de probabilidade dada por
- $$
-P(X=x)=\log _{10}\left(1+\frac{1}{x}\right), \quad x \in\{1,2, \ldots, 9\}
-$$
+que representa o primeiro algarismo de um número inteiro escrito em base decimal. Admita que X
+possui distribuição de Benford, com função de probabilidade dada por
+$$P(X=x)=\log _{10}\left(1+\frac{1}{x}\right), \quad x \in\{1,2, \ldots, 9\}$$
 
 1. Calcule a probabilidade de X ser **igual a 1 ou 7**.
 
