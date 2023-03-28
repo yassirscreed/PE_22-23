@@ -1,19 +1,14 @@
+1. Fixando a **semente em 3652**, gere uma amostra de dimensão **k=2444** proveniente de uma **distribuição Exponencial** de parâmetro **λ=25**.
+Os valores gerados correspondem aos tempos entre acontecimentos sucessivos.
 
-Ensaios de Bernoulli independentes, cada um dos quais com **probabilidade de sucesso 0.35**, são sucessivamente realizados. 
-Seja X o número de insucessos até ao primeiro ensaio que resulta em sucesso. 
-A distribuição da variável aleatória X é conhecida por distribuição geométrica de parâmetro **p=0.35**, cuja função (massa) de probabilidade é dada por:
+2. Considere agora a soma sucessiva destas observações, i.e., 
+se $x_i$ designar o i-ésimo valor gerado, então $s_j=\sum ^{j}_{i=1} x_i$ é o instante de ocorrência do j-ésimo acontecimento. 
 
-$$
-f_X(x)= \begin{cases}(1-p)^x p & \text{x=0,1,2,} \ldots \\ 
-                      0 & \text { caso contrário }\end{cases}
-$$
+3. Seja $T=⌈s_{2444}⌉$ o menor número inteiro maior ou igual ao instante de ocorrência do último acontecimento.
 
-Podemos gerar valores de uma distribuição geométrica a partir de uma distribuição uniforme contínua usando o método de transformação inversa. Nesse sentido, requer-se a execução dos seguintes passos:
+4. Divida o intervalo $]0,T]$
+ em intervalos de amplitude unitária e contabilize o número de acontecimentos que ocorreram em cada um desses subintervalos.
 
-  i.Simula-se um valor, u, proveniente de uma distribuição uniforme no intervalo **]0,1[**.
+1. Calcule a média do número de acontecimentos por subintervalo e de seguida calcule o desvio absoluto entre este valor e o valor esperado (teórico) do número de acontecimentos num subintervalo. 
 
-  ii.Se $F_X(x−1) < u \le F_X(x)$, aceita-se x como um valor simulado de X , onde $F_X(x)$ é a função de distribuição de X.
-
-Fixando a **semente em 1891**, implemente este método de simulação estocástica repetindo os passos anteriores até obter uma **amostra de dimensão n=1173**.
-
-Indique a proporção de valores simulados que são superiores à soma da média com o desvio padrão amostrais, de entre os que são superiores à respetiva média amostral. Apresente o resultado com **4 casas decimais**.
+Indique este desvio arredondado a **4 casas decimais**.
