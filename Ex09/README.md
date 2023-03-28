@@ -10,7 +10,7 @@ Duas variantes são possíveis:
 1. Usando $Z_1$
     , não é difícl mostrar que os limites do intervalo de confiança são as soluções da seguinte equação do segundo grau em $p$:
     $$\bar{X}^2-2 p \bar{X}+p^2-z^2 \frac{p(1-p)}{n}=0$$
-    em que $\bar{X}$ representa a média amostral e $z=ϕ^{−1}(1+γ2)$ , para um nível de confiança aproximado $γ∈]0,1[$.
+    em que $\bar{X}$ representa a média amostral e $z=ϕ^{−1}(\frac{1+γ}{2})$ , para um nível de confiança aproximado $γ∈]0,1[$.
 
 2. Uma segunda aproximação conduz à variável fulcral
     $$Z_2=\frac{\bar{X}-p}{\sqrt{\frac{\bar{X}(1-\bar{X})}{n}}} \stackrel{a}{\sim} N(0,1)$$
