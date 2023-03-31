@@ -1,4 +1,4 @@
-Considere uma variável aleatória com **distribuição de Cauchy**, com parâmetros de localização e escala iguais a $4$ e $1.4$, respectivamente.
+Considere uma variável aleatória com **distribuição de Cauchy**, com parâmetros de localização e escala iguais a $-0.6$ e $1.2$, respectivamente.
 
 Fixando a **semente em 2015**, gere uma amostra de dimensão **n=190** desta população.
 
