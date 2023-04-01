@@ -8,8 +8,8 @@ Uma vez que as variáveis podem não ter a mesma escala, antes de construir o gr
 
 1. Selecione os dados a usar.
 
-2. Faça a seguinte transformação aos dados associados a cada variável
+2. Faça a seguinte transformação aos dados associados a cada variável 
 
-    $$X_k: z_{i k}=\frac{x_{i k}-\bar{x}_k}{s_{x_k}}, \quad i=1,2, \ldots, n$$
+  $$X_k: z_{i k}=\frac{x_{i k}-\bar{x}_k}{s_{x_k}}, \quad i=1,2, \ldots, n$$
 
-    onde n é o número de observações da amostra, $\bar{x_k}$ e ${s_{x_k}}$ correspondem, respectivamente, à média e desvio-padrão da amostra associada à variável $X_k$.
+onde n é o número de observações da amostra, $\bar{x_k}$ e ${s_{x_k}}$ correspondem, respectivamente, à média e desvio-padrão da amostra associada à variável $X_k$.
